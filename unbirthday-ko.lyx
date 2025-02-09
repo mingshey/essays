@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -9,11 +9,11 @@
 \usepackage{kotex}
 \end_preamble
 \use_default_options true
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package default
 \inputencoding utf8
-\fontencoding global
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -21,7 +21,9 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -34,7 +36,7 @@
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref false
-\papersize a4paper
+\papersize a4
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -55,7 +57,9 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -76,11 +80,16 @@
 \papercolumns 2
 \papersides 1
 \paperpagestyle empty
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -90,15 +99,30 @@
 \end_layout
 
 \begin_layout Author
-\begin_inset space \space{}
+류명선
+\begin_inset Newline newline
 \end_inset
 
 
-\begin_inset space \hspace{}
-\length 12cm
+\begin_inset CommandInset href
+LatexCommand href
+name "mingshey@hafs.hs.kr"
+target "mailto:mingshey@hafs.hs.kr"
+literal "false"
+
 \end_inset
 
-류명선/외대부고
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Info
+type  "fixdate"
+arg   "loclong@2020-04-22"
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -114,7 +138,8 @@ literal "true"
 
 \end_inset
 
-에서 앨리스가 미친 모자장수와 3월의 토끼를 만난 미친 다과회를 기억하시나요? 그 때 모자장수와 토끼는 ``안생일
+에서 앨리스가 미친 모자장수와 3월의 토끼를 만난 미친 다과회를 기억하시나요?
+ 그 때 모자장수와 토끼는 ``안생일
 \emph on
 Unbirthday
 \emph default
@@ -154,11 +179,13 @@ literal "true"
 \emph on
 안생일
 \emph default
-을 공유할 수도 있을까요? 학생 모두의 
+을 공유할 수도 있을까요?
+ 학생 모두의 
 \emph on
 안생일
 \emph default
-인 날은 몇 일이 있일까요? 학생 수가 일 년의 날 수보다 꽤 많다면 그런 날은 거의 없을 것이라고 짐작하실지도 모릅니다.
+인 날은 몇 일이 있일까요?
+ 학생 수가 일 년의 날 수보다 꽤 많다면 그런 날은 거의 없을 것이라고 짐작하실지도 모릅니다.
  정말 그럴까요?
 \end_layout
 
@@ -293,11 +320,13 @@ literal "true"
 
 \end_inset
 
-, 따라서 어떤 날이 특정한 한 학생의 생일이 아닐 확률 
+,
+ 따라서 어떤 날이 특정한 한 학생의 생일이 아닐 확률 
 \begin_inset Formula $P_{1}$
 \end_inset
 
-은, 
+은,
+ 
 \end_layout
 
 \begin_layout Standard
@@ -317,7 +346,8 @@ P_{1} & = & (D-1)/D\\
 \begin_inset Formula $N$
 \end_inset
 
- 명이라고 할 때, 
+ 명이라고 할 때,
+ 
 \begin_inset Formula $N$
 \end_inset
 
@@ -329,11 +359,13 @@ P_{1} & = & (D-1)/D\\
 \begin_inset Formula $\alpha$
 \end_inset
 
- 배, 즉 
+ 배,
+ 즉 
 \begin_inset Formula $N=\alpha D$
 \end_inset
 
-이라면, 그 날이 어떤 학생의 생일도 아닐 확률 
+이라면,
+ 그 날이 어떤 학생의 생일도 아닐 확률 
 \begin_inset Formula $P_{N}$
 \end_inset
 
@@ -355,7 +387,8 @@ P_{N}=P_{1}^{N} & = & (1-\frac{1}{D})^{N}\\
 \begin_inset Formula $D\gg1$
 \end_inset
 
-), 
+),
+ 
 \begin_inset Formula $(1-\frac{1}{D})^{D}\approx1/e$
 \end_inset
 
@@ -371,7 +404,8 @@ status open
 \begin_inset Formula $y=-x$
 \end_inset
 
-라 하면, 
+라 하면,
+ 
 \begin_inset Formula $\underset{x\rightarrow0}{\lim}(1-x)^{1/x}=\underset{y\rightarrow0}{\lim}(1+y)^{-1/y}=\underset{y\rightarrow0}{\lim}\{(1+y)^{1/y}\}^{-1}=e^{-1}.$
 \end_inset
 
@@ -379,15 +413,18 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-사실은, 
+사실은,
+ 
 \begin_inset Formula $D=365$
 \end_inset
 
-일 때, 
+일 때,
+ 
 \begin_inset Formula $(1-\frac{1}{D})^{D}\approx0.367375$
 \end_inset
 
-이고, 
+이고,
+ 
 \begin_inset Formula $1/e\approx0.367879$
 \end_inset
 
@@ -400,7 +437,8 @@ status open
 
 \end_inset
 
-, 따라서
+,
+ 따라서
 \end_layout
 
 \begin_layout Standard
@@ -415,7 +453,8 @@ P_{N}\rightarrow e^{-\alpha},
 \end_layout
 
 \begin_layout Standard
-그러면 모든 학생의 ``안생일'' 날 수의 기대치는, 일 년의 날 수가 
+그러면 모든 학생의 ``안생일'' 날 수의 기대치는,
+ 일 년의 날 수가 
 \begin_inset Formula $D$
 \end_inset
 
@@ -436,7 +475,8 @@ U & = & D\times P_{N}\\
 \begin_inset Formula $D=365$
 \end_inset
 
-이고, 
+이고,
+ 
 \begin_inset Formula $30$
 \end_inset
 
@@ -448,7 +488,8 @@ U & = & D\times P_{N}\\
 \begin_inset Formula $N=1095$
 \end_inset
 
- 이고, 
+ 이고,
+ 
 \begin_inset Formula $\alpha=3$
 \end_inset
 
@@ -467,8 +508,8 @@ U & \approx & 365\times e^{-3}\\
 \end_layout
 
 \begin_layout Standard
-따라서 학생 수가 일 년의 날 수보다 많은 큼직한 학교에서도 모든 학생의 안생일, 즉 아무의 생일도 아닌 날은 꽤 여러 날이 남아
- 있을 수 있는 셈입니다.
+따라서 학생 수가 일 년의 날 수보다 많은 큼직한 학교에서도 모든 학생의 안생일,
+ 즉 아무의 생일도 아닌 날은 꽤 여러 날이 남아 있을 수 있는 셈입니다.
 \end_layout
 
 \begin_layout Standard
@@ -487,11 +528,14 @@ D/d & < & e^{\alpha},\\
 
 \end_inset
 
-예를 들어, 안생일 날 수의 기대치가 하루 미만이려면 
+예를 들어,
+ 안생일 날 수의 기대치가 하루 미만이려면 
 \begin_inset Formula $\alpha>5.9$
 \end_inset
 
-, 이고, 학생 수는 
+,
+ 이고,
+ 학생 수는 
 \begin_inset Formula $2153$
 \end_inset
 
@@ -515,7 +559,8 @@ literal "true"
 
 \end_inset
 
-디즈니, ``이상한 나라의 앨리스''(영화,1951)
+디즈니,
+ ``이상한 나라의 앨리스''(영화,1951)
 \end_layout
 
 \begin_layout Bibliography
@@ -527,7 +572,8 @@ literal "true"
 
 \end_inset
 
- 루이스 캐롤, ``거울나라의 앨리스'' (1871)
+ 루이스 캐롤,
+ ``거울나라의 앨리스'' (1871)
 \end_layout
 
 \end_body
