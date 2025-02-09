@@ -1,0 +1,540 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+All Students' Unbirthday
+\end_layout
+
+\begin_layout Author
+Myungsunn Ryu / HAFS
+\end_layout
+
+\begin_layout Standard
+Do you remember the Mad Hatter and the March Hare were celebrating their
+ unbirthday
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+i.e., ``when it isn't your birthday'' – Humpty Dumpty
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TtLG"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ when Alice met the two M.H.'s at the Mad Tea-Party?
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AiW"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+It is not very likely that you have a common birthday with your closest
+ friend.
+ But you can share an unbirthday with almost anyone.
+ Well, then can you have a common unbirthday with all the other students
+ in your school? How many common unbirthdays of all students in your school,
+ do you expect, are there in a year? Well, birthdays tend to be different
+ from person to person.
+ So you might expect there are almost no day left that is nobody's birthday
+ in case it is a biggish school where the number of students is much larger
+ than the number of days in a year.
+ Is it really the case?
+\end_layout
+
+\begin_layout Standard
+There is one birthday every year for a student.
+ So you have 
+\begin_inset Formula $D-1$
+\end_inset
+
+ unbirthdays in a year
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+from Alice's formula
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TtLG"
+literal "true"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $365$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $364$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, where 
+\begin_inset Formula $D$
+\end_inset
+
+ is the number of days in a year.
+ Therefore the probability that a day is an unbirthday of a certain student
+ is 
+\begin_inset Formula 
+\begin{eqnarray*}
+P_{1} & = & (D-1)/D\\
+ & = & 1-\frac{1}{D},
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If there are 
+\begin_inset Formula $N$
+\end_inset
+
+ students, where 
+\begin_inset Formula $N$
+\end_inset
+
+ is 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ times as large as the number of days in a year (i.e., 
+\begin_inset Formula $N=\alpha D$
+\end_inset
+
+), in the school, the probability that a day is no student's birthday is
+\begin_inset Formula 
+\begin{eqnarray*}
+P_{N}=P_{1}^{N} & = & (1-\frac{1}{D})^{N}\\
+ & = & (1-\frac{1}{D})^{\alpha D}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $D$
+\end_inset
+
+ is much bigger than 1 (
+\begin_inset Formula $D\gg1$
+\end_inset
+
+), 
+\begin_inset Formula $(1-\frac{1}{D})^{D}\approx\dfrac{1}{e}$
+\end_inset
+
+, and
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Since 
+\begin_inset Formula $\underset{x\rightarrow0}{\lim}(1+x)^{1/x}=e$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+substituting
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ with 
+\begin_inset Formula $y=-x,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\underset{x\rightarrow0}{\lim}(1-x)^{1/x}=\underset{y\rightarrow0}{\lim}(1+y)^{-1/y}=e^{-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+Actually, for 
+\begin_inset Formula $D=365$
+\end_inset
+
+, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(1-\frac{1}{D})^{D}\approx0.367375$
+\end_inset
+
+, while 
+\begin_inset Formula $1/e\approx0.367879$
+\end_inset
+
+.
+ Thus the relative error is 
+\begin_inset Formula $0.137\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+P_{N}\rightarrow e^{-\alpha},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And the expected number of ``unbirthdays'' of all students is, since there
+ are 
+\begin_inset Formula $D$
+\end_inset
+
+ days in a year,
+\begin_inset Formula 
+\begin{eqnarray*}
+U & = & D\times P_{N}\\
+ & \approx & De^{-\alpha}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, in an ordinary year(in contrast to the leap year) 
+\begin_inset Formula $D=365$
+\end_inset
+
+, and in a school where there are 30 classes and in average 36.5 students
+ every class, 
+\begin_inset Formula $N=1095$
+\end_inset
+
+ students, and 
+\begin_inset Formula $\alpha=3$
+\end_inset
+
+, therefore
+\begin_inset Formula 
+\begin{eqnarray*}
+P_{N} & = & e^{-3}\approx\frac{1}{20},\\
+U & \approx & 365\times e^{-3}\\
+ & \approx & \unit[18.17]{days}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So even in an ordinary `biggish' school it si quite probabble that there
+ are quite a few all-students' unbirthdays left over.
+\end_layout
+
+\begin_layout Standard
+If the expected number of all students' unbirthday should be under 
+\begin_inset Formula $d$
+\end_inset
+
+, 
+\begin_inset Formula 
+\begin{eqnarray*}
+U & \approx & De^{-\alpha}<d,\\
+D/d & < & e^{\alpha},\\
+\ln\frac{D}{d} & < & \alpha=\frac{N}{D},\\
+\therefore N & > & D\ln\frac{D}{d}
+\end{eqnarray*}
+
+\end_inset
+
+That is, for example, if the expected number of all students' unbirthdays
+ should be less than 
+\begin_inset Formula $1$
+\end_inset
+
+, then 
+\begin_inset Formula $\alpha>5.9$
+\end_inset
+
+ and the student number 
+\begin_inset Formula $N$
+\end_inset
+
+ should be larger than 
+\begin_inset Formula $2153$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "AiW"
+literal "true"
+
+\end_inset
+
+ Disney, ``
+\emph on
+Alice in Wonderland
+\emph default
+'', 1951 film
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "TtLG"
+literal "true"
+
+\end_inset
+
+ Carroll, Lewis, ``
+\emph on
+Through the Looking Glass
+\emph default
+'', 1871
+\end_layout
+
+\end_body
+\end_document
